@@ -1,0 +1,19 @@
+.carousel {
+
+  .slick-prev:before {
+    color: black;
+  }
+  .slick-next:before {
+    color: black;
+  }
+
+  
+}
+
+.slick-slider {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}

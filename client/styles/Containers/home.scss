@@ -1,0 +1,35 @@
+.home {
+  color: #ddd;
+  text-align: center;
+
+  .card-header {
+    background-color: rgba(black, .5);
+  }
+
+  .form-inline {
+    input {
+      width: 50px;
+      height: 50px;
+      font-weight: bold;
+      font-size: 1.2em;
+      text-align: center;
+      @include transition(border-radius linear .1s);
+
+      &:active,
+      &:focus {
+        border-radius: 16px;
+        border-width: 4px;
+      }
+    }
+
+    & .input-blocks {
+      margin: 0 auto;
+      width: 100%;
+      padding: 25px;
+    }
+  }
+}
+
+.card {
+  background-color: rgba(rgb(32, 32, 32), .75);
+}

@@ -1,0 +1,24 @@
+%text-no-highlight {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+
+%img-fit {
+  max-width: 100%;
+  display:block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+%img-stretch {
+  max-width: 100%;
+  display:block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

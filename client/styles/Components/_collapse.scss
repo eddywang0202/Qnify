@@ -1,0 +1,39 @@
+.Collapsible {
+  border: 1px solid lightgrey;
+  padding: 2px;
+}
+
+.Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333;
+    position: relative;
+    border: 1px solid white;
+    padding: 10px;
+    background: #00233f;
+    color: white;
+    cursor: pointer;
+}
+
+.Collapsible__contentOuter {
+  padding: 0 6px;
+}
+
+.Collapsible__trigger.is-closed::after {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: transform 300ms;
+  content: '(Click to Expand)';
+}
+
+.Collapsible__trigger.is-open::after {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: transform 300ms;
+  content: '(Click to Collapse)';
+}

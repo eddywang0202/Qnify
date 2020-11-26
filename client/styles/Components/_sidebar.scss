@@ -1,0 +1,71 @@
+.sidebar {
+  position: fixed;
+  color: #ddd;
+  height: 100%;
+  width: $sidebar-width;
+  background: #890075; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #890075 1%, #573dbf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #890075 1%,#573dbf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #890075 1%,#573dbf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  box-shadow: 0 2px 6px rgb(15, 15, 15);
+  overflow-y: auto; 
+
+  & a {
+    color: #ddd;
+
+    &.active,
+    &:hover {
+      background-color:rgba(0, 0, 0, 0.253);
+    }
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+
+  & .profile {
+
+    & img.logo {
+      max-width: 100%;
+      display:block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      @extend %text-no-highlight;
+    }
+  }
+
+  & .footer {
+
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    & .btn-logout {
+      border: 2px solid rgba(55, 55, 55, .5);
+      border-radius: 36px;
+      background-color:rgba(0, 0, 0, 0.2);
+      width: $sidebar-width / 1.5;
+      height: 35px;
+      color: #ddd;
+      cursor: pointer;
+      margin-top: 20px;
+
+      &:hover {
+        background-color:rgba(red, 0.2);
+        border: 2px solid rgba(white, .5);
+      }
+
+      &:active,
+      &:focus {
+        background-color:rgba(red, 0.2);
+        outline: none;
+        border: 2px solid rgba(white, .5);
+      }
+    }
+  }
+}

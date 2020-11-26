@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:8.0.13
+    container_name: mysql
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=asd123ASD123
+    ports:
+      - '3306:3306'
+
+  qnify-webapi:
+    build: .
+    container_name: qnify-webapi
+    image: qnify-webapi
+    ports:
+      - '81:80'

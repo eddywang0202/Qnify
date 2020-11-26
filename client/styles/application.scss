@@ -1,0 +1,38 @@
+$sidebar-width: 230px;
+
+// This is the top-level scss file. Import all other files in here.
+@import "~normalize.css/normalize.css";
+@import "~bootstrap/scss/bootstrap";
+
+
+// Vendors
+@import '~react-table/react-table.css';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "./Components/reacttablecustom";
+
+@import './Components/boostrapcustom';
+
+// Functions and helpers
+@import "./Helpers/placeholder";
+@import "./Helpers/mixin";
+
+@import './shared';
+
+// Components
+@import './Components/layout';
+@import './Components/sidebar';
+@import './Components/navbar';
+@import './Components/carousel';
+@import './Components/listItem';
+@import './Components/grid';
+@import './Components/modal';
+@import './Components/etc';
+@import './Components/form';
+@import './Components/collapse';
+
+// Containers
+@import './Containers/home.scss';
+@import './Containers/testPage.scss';
+@import './Containers/register.scss';
+

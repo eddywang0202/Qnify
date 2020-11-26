@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Qnify.Model</name>
+    </assembly>
+    <members>
+        <member name="P:Qnify.Model.Request.CaseModelRequest.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.CaseModelRequest.CellImage">
+            <summary>
+            CellImage
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.CaseModelRequest.AdditionalCellPropertyJson">
+            <summary>
+            AdditionalCellPropertyJson
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.CaseModelUpdateRequest.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.GetUserTestQuestionReportsRequest.Offset">
+            <summary>
+            Offset
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.GetUserTestQuestionReportsRequest.Limit">
+            <summary>
+            Limit
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.GetUserTestQuestionReportsRequest.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.GetUserTestQuestionReportsRequest.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.ParticipantTestQuestionAnswerRequest.TestQuestionId">
+            <summary>
+            QuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.ParticipantTestQuestionAnswerRequest.AnswerIds">
+            <summary>
+            AnswerIds
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.ParticipantTestQuestionInsertRequest.UserQuestionAnswers">
+            <summary>
+            UserQuestionAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.QuestionModelRequest.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.QuestionModelRequest.QuestionId">
+            <summary>
+            QuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.QuestionModelRequest.AnswerIds">
+            <summary>
+            AnswerIds
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.QuestionModelUpdateRequest.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionRequest.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionRequest.TestSetTitle">
+            <summary>
+            TestSetTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionRequest.TestSetQuestionModels">
+            <summary>
+            TestSetQuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionRequest.CaseModels">
+            <summary>
+            CaseModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionUpdateRequest.TestSetId">
+            <summary>
+            TestSetId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionUpdateRequest.TestSetTitle">
+            <summary>
+            TestSetTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionUpdateRequest.TestSetQuestionModels">
+            <summary>
+            TestSetQuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestQuestionUpdateRequest.CaseModels">
+            <summary>
+            CaseModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestRequest.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestRequest.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestRequest.Consent">
+            <summary>
+            Consent
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Request.TestRequest.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.DemographicQuestionAnswerRequest.EasyToken">
+            <summary>
+            EasyToken
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.DemographicQuestionAnswerRequest.UserQuestionAnswers">
+            <summary>
+            UserQuestionAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.UserQuestionAnswerRequest.EasyToken">
+            <summary>
+            EasyToken
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.UserQuestionAnswerRequest.UserQuestionAnswers">
+            <summary>
+            UserQuestionAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.UserTestQuestionRequest.UserQuestionAnswers">
+            <summary>
+            UserQuestionAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.GetUserTestQuestionReportsResponse.TotalPageCount">
+            <summary>
+            TotalPageCount
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.GetUserTestQuestionReportsResponse.UserTestQuestionReports">
+            <summary>
+            userTestQuestionReports
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.ReportSetModelResponse.ReportSetModels">
+            <summary>
+            ReportSetModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.ReportSetModelResponse.ResultPerformances">
+            <summary>
+            ResultPerformance
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.UserDemographicModelResponse.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Response.UserDemographicModelResponse.UserDemographicModels">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.ImageResponse.CellImage">
+            <summary>
+            CellImage
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.QuestionAnswerResponse.QuestionModels">
+            <summary>
+            Questions
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.QuestionResponse.QuestionModels">
+            <summary>
+            Questions
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.QuestionTemplateResponse.Cells">
+            <summary>
+            Cells
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.QuestionTemplateResponse.QuestionModels">
+            <summary>
+            QuestionAnswerModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestQuestionResponse.TestSetModels">
+            <summary>
+            TestModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestSetListResponse.TestSetId">
+            <summary>
+            TestSetId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestSetListResponse.TestSetTitle">
+            <summary>
+            TestSetTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestSetListResponse.TestSetOrder">
+            <summary>
+            TestSetOrder
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestSetListResponse.IsAnswered">
+            <summary>
+            IsAnswered
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.TestSetListResponse.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Answer.AnswerId">
+            <summary>
+            AnswerId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Answer.AnswerTitle">
+            <summary>
+            AnswerTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Answer.NextQuestionId">
+            <summary>
+            NextQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Answer.AnswerOrder">
+            <summary>
+            AnswerOrder
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Answer.IsChosenAnswer">
+            <summary>
+            IsChosenAnswer
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.CellRow">
+            <summary>
+            CellRow
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.CellColumn">
+            <summary>
+            CellColumn
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.CellImage">
+            <summary>
+            CellImage
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.CellPropertyJson">
+            <summary>
+            CellPropertyJson
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.CaseModel.AdditionalCellPropertyJson">
+            <summary>
+            AdditionalCellPropertyJson
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyToken.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyToken.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyToken.EasyTokenValue">
+            <summary>
+            EasyTokenValue
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyToken.Expires">
+            <summary>
+            Expires
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyTokenModel.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyTokenModel.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyTokenModel.EasyTokenValue">
+            <summary>
+            EasyTokenValue
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.EasyTokenModel.Expires">
+            <summary>
+            Expires
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionCorrectAnswer.QuestionId">
+            <summary>
+            QuestionAnswerId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionCorrectAnswer.CorrectAnswerId">
+            <summary>
+            AnswerTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionId">
+            <summary>
+            QuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionTitle">
+            <summary>
+            QuestionTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionTypeId">
+            <summary>
+            QuestionType
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionGroupId">
+            <summary>
+            QuestionGroupId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionParentId">
+            <summary>
+            QuestionParentId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.QuestionOrder">
+            <summary>
+            QuestionOrder
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.QuestionModel.Answers">
+            <summary>
+            Answers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Report.QuestionTotalCount">
+            <summary>
+            QuestionTotalCount
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Report.CorrectAnswerTotalCount">
+            <summary>
+            CorrectAnswerTotalCount
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.Report.ResultPerformances">
+            <summary>
+            ResultPerformance
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionId">
+            <summary>
+            QuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionTitle">
+            <summary>
+            QuestionTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionTypeId">
+            <summary>
+            QuestionType
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionGroupId">
+            <summary>
+            QuestionGroupId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionParentId">
+            <summary>
+            QuestionParentId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.QuestionOrder">
+            <summary>
+            QuestionOrder
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.Answers">
+            <summary>
+            Answers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.CorrectAnswers">
+            <summary>
+            CorrectAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportQuestionModel.IsCorrect">
+            <summary>
+            IsCorrect
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportSetModel.TestSetId">
+            <summary>
+            TestSetId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportSetModel.TestSetTitle">
+            <summary>
+            TestSetTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportSetModel.ReportQuestionModels">
+            <summary>
+            TestSetQuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ReportSetModel.CaseModels">
+            <summary>
+            QuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformance.ResultPerformanceName">
+            <summary>
+            ResultPerformanceName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformance.ResultPerformanceRate">
+            <summary>
+            ResultPerformanceRate
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformance.IsSelected">
+            <summary>
+            IsSelected
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformanceRateModel.ResultPerformanceName">
+            <summary>
+            ResultPerformanceName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformanceRateModel.ResultPerformanceRate">
+            <summary>
+            ResultPerformanceRate
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.ResultPerformanceRateModel.IsSelected">
+            <summary>
+            IsSelected
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.TestSetModel.TestSetId">
+            <summary>
+            TestSetId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.TestSetModel.TestSetTitle">
+            <summary>
+            TestSetTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.TestSetModel.TestSetQuestionModels">
+            <summary>
+            TestSetQuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.TestSetModel.CaseModels">
+            <summary>
+            QuestionModels
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserDemographicModel.QuestionTitle">
+            <summary>
+            QuestionTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserDemographicModel.Answers">
+            <summary>
+            Answers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserQuestionAnswer.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserQuestionAnswer.ChoosenAnswer">
+            <summary>
+            ChoosenAnswer
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.SubmitDate">
+            <summary>
+            SubmitDate
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.TestName">
+            <summary>
+            TestName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.TotalCorrectQuestions">
+            <summary>
+            TotalCorrectQuestions
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.TotalAnsweredQuestions">
+            <summary>
+            TotalAnsweredQuestions
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Table.UserTestQuestionReport.TotalQuestions">
+            <summary>
+            TotalQuestions
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Case.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Case.CellId">
+            <summary>
+            CellId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Case.AdtCellPropJson">
+            <summary>
+            AdtCellPropJson
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Case.ImageName">
+            <summary>
+            ImageName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Case.QuestionCorrectAnswers">
+            <summary>
+            ImageName
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.ReportDetail.TestQuestionId">
+            <summary>
+            TestQuestionId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.ReportDetail.QuestionTitle">
+            <summary>
+            QuestionTitle
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.ReportDetail.CellImage">
+            <summary>
+            CellImage
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.ReportDetail.ChoosenAnswers">
+            <summary>
+            ChoosenAnswers
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Test.TestId">
+            <summary>
+            TestId
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Test.Title">
+            <summary>
+            Title
+            </summary>
+        </member>
+        <member name="P:Qnify.Model.Test.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+    </members>
+</doc>

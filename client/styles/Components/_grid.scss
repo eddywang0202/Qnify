@@ -1,0 +1,50 @@
+.grid{
+  &.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+
+    .col {
+      align-content: center;
+      border: 2px solid rgb(63, 63, 63);
+      display: flex;
+      flex-basis: 1;
+      margin: 1px;
+      font-size: 0.8rem;
+      overflow: hidden;
+      padding: 0;
+
+      // maintain aspect ratio
+      width: 20vw;
+      height: 20vw;
+
+      &.col--block {
+        width: 20vw;
+        height: 70vw;
+        background-color: black;
+
+      }
+      .cell {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+        &.row {
+          flex-wrap: nowrap;
+        }
+
+        img {
+          @extend %img-fit;
+          cursor: pointer;
+          height: 100%;
+          width: 100%;
+        }
+
+        > div[class^='col-']{
+          padding: 0;
+        }
+      }
+    }
+  }
+}
